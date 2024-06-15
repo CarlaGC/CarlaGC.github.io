@@ -1,0 +1,39 @@
+---
+title: "Kōtuku ngutupapa"
+author: "Carla Gómez C"
+date: "2024-06-03"
+categories: [news, code, analysis]
+execute: 
+  warning: false
+---
+
+This is a post with executable code.
+
+```{r}
+#| echo: false
+library(tidyverse) # version 1.3.2
+library(rinat) # version 0.1.9
+library(lubridate) # version 1.8.0
+library(mapproj) # version 1.2.11 
+
+```
+
+```{r}
+#| echo: false
+#| label: getdata
+#| cache: true
+
+kotuku <- get_inat_obs(taxon_name ="Platalea regia", place_id = 6803, geo = TRUE, maxresults = 10000)
+```
+
+```{r}
+#| echo: false
+#| label: mapdata
+
+#observaions with no date
+#remove 1992
+
+inat_map(kotuku, map = 'nz') + coord_map()
+```
+
+\

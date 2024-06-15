@@ -4,16 +4,20 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/cgomezcre/
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/CarlaGC
 ---
 
-About this blog
+**Nau mai, haere mai**
+
+Welcome to my little website!
+
+This is a place where I share stories about using data to tell a story. The areas that interest me are geography, ecology, biodiversity, and the environment, so I often use data from these fields in my data visualization projects. The goal for these projects is to experiment with ways of drawing insights from data rather than fully auditing and analyzing it to draw conclusions as you would in a formal research project.
+
+I hope you find the content interesting and valuable. If you have any questions of comments, please do reach out - I'd love to hear from you.
+
+Lastly, a reminder that the contents of this site has been developed in my own time. It is not associated with, or represent the views of my employer.

@@ -4,14 +4,28 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Welcome to my little website!\nThis is a place where I share stories about using data to tell a story. The areas that interest me are geography, ecology, biodiversity, and the environment, so I often use data from these fields in my data visualization projects. The goal for these projects is to experiment with ways of drawing insights from data rather than fully auditing and analyzing it to draw conclusions as you would in a formal research project.\nI hope you find the content interesting and valuable. If you have any questions of comments, please do reach out - I’d love to hear from you.\nLastly, a reminder that the contents of this site has been developed in my own time. It is not associated with, or represent the views of my employer."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 3, 2024\n\n\nCarla Gómez C\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Carla Gómez Creuztberg",
     "section": "",
-    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my little website!\nThis is a place where I share stories about using data to tell a story. The areas that interest me are geography, ecology, biodiversity, and the environment, so I often use data from these fields in my data visualization projects. The goal for these projects is to experiment with ways of drawing insights from data rather than fully auditing and analyzing it to draw conclusions as you would in a formal research project.\nI hope you find the content interesting and valuable. If you have any questions of comments, please do reach out - I’d love to hear from you.\nLastly, a reminder that the contents of this site has been developed in my own time. It is not associated with, or represent the views of my employer."
+  },
+  {
+    "objectID": "posts/kutuku_ngutupapa/index.html",
+    "href": "posts/kutuku_ngutupapa/index.html",
+    "title": "Kōtuku ngutupapa",
+    "section": "",
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "posts/post-with-code/index.html",

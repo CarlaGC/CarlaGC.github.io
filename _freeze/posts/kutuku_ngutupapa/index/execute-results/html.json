@@ -1,0 +1,14 @@
+{
+  "hash": "37b21512ce3b1361ecfc64ed914eb4cd",
+  "result": {
+    "markdown": "---\ntitle: \"Kōtuku ngutupapa\"\nauthor: \"Carla Gómez C\"\ndate: \"2024-06-03\"\ncategories: [news, code, analysis]\nexecute: \n  warning: false\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n:::\n\n::: {.cell hash='index_cache/html/getdata_a68228e51aa599de4167f20a5e8b09b0'}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/mapdata-1.png){width=672}\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-html/mapdata-2.png){width=672}\n:::\n:::\n\n\n\\\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

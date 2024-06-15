@@ -1,7 +1,9 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/kutuku_ngutupapa.html",
+      "/posts/kutuku_ngutupapa/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
