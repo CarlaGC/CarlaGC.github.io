@@ -1,0 +1,61 @@
+---
+title: "Lucas Land use map"
+author: "Carla Gómez C"
+date: "2024-06-03"
+categories: [news, code, analysis]
+execute: 
+  warning: false
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+---
+
+Introduce the LUCAS LUM, Mfe. Land use classes
+
+Load relevant libraries.
+
+We will be using the package [kooridnatr: API Access to Koordinates Data Services](https://github.com/isaacbain/koordinatr) developed by Isaac Bain. This package simplifies the process of importing tabular and spatial data from a Koordinates data service. Several organisations, including New Zealand government agencies such as StatsNz and the MfE use a Koordinates platform to share their data. In addition to installing the package you will need to setup an account and obtain an API with the data service you want to connect to, in this case the (MfE dataservice)[https://data.mfe.govt.nz/]. 
+
+Any other libraries used?
+
+```{r}
+#| echo: false
+#| label: load libraries
+library(tidyverse) # version 1.3.2
+library (koordinatr) # kordinatr - https://github.com/isaacbain/koordinatr
+
+
+```
+
+
+We use the `get_layer_as_sf` from the kooridnatr package to load the LUCAS LUM directly into R as a simple features (sf) object. SF objects include both the gemoetry (or polygons) delineating each land use unit spatially and a table relating each polygon to its corresponding attributes, much like a shapefile in ArcGIS.
+
+
+```{r}
+#| echo: false
+#| label: getdata
+#| cache: true
+
+full_lum <- get_layer_as_sf(Sys.getenv("koordinates_api_key"),
+                             agency = "mfe",
+                             id = "117733")
+```
+
+The object we have imported is relatively large, it contains data for `r nrow(full_lum)` polygons. For each polygon, the attributes table holds information on its area in hectares (`AREA_HA` variable) and the land use class in each of the mapped years (variables prefixed with `LUICD_`) and subclass for each mapped year (variables prefixed with `SUBID_`), among other characteristics. 
+
+Below we summarize the attibute table so that it tells us the area of each land use in each of the 5 satellite imagery dates covered in this dataset: 1989, 2007, 2012 2016, 2020 
+
+
+```{r}
+#| echo: false
+#| label: summarise data
+#| cache: true
+
+lu_table <- full_lum |> 
+  
+  
+
+```
+
+
